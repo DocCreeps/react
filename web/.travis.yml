@@ -9,3 +9,4 @@ secret_access_api: $AWS_SECRET_API
 bucket: esi4tests3awsdv
 local_dir: build
 acl: public_read
+on: branch : main
