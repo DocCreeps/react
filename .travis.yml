@@ -1,8 +1,11 @@
 language: node_js
-node_js: -stable
+node_js: 
+- stable
 cache: 
-directories: -node_modules
-script: -npm run test
+directories: 
+- node_modules
+script: 
+- npm run test
 before_deloy:
 script: npm run build
 deploy:
@@ -14,3 +17,4 @@ local_dir: build
 acl: public_read
 on: 
 branch : master
+
